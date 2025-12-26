@@ -1,13 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulation - Forging Defects</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-		<!-- Your code goes here-->
+    <!-- Modal Overlay -->
+    <div id="modal-overlay" class="modal-overlay">
+        <div class="modal-content">
+            <h2 class="modal-title">Select Defect Type</h2>
+            <p class="modal-description">Choose a forging defect category to explore</p>
+            <div class="modal-options">
+                <button class="modal-button" onclick="selectSimulation('lapsandfolds')">
+                    <h3>Laps and Folds</h3>
+                    <p>Buckling and shearing defects in forging</p>
+                </button>
+                <button class="modal-button" onclick="selectSimulation('overfills')">
+                    <h3>Overfills</h3>
+                    <p>Flash appearance during die closure</p>
+                </button>
+                <button class="modal-button" onclick="selectSimulation('underfills')">
+                    <h3>Under Fills</h3>
+                    <p>Incomplete die cavity filling defects</p>
+                </button>
+                <button class="modal-button" onclick="selectSimulation('multiple')">
+                    <h3>Multiple Defects</h3>
+                    <p>Various defects occurring together</p>
+                </button>
+            </div>
+        </div>
+    </div>
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar" id="sidebar" style="display: none;">
+        <nav class="nav-menu">
+            <button class="back-button" onclick="backToSelection()">← Back to Selection</button>
+            
+            <div class="nav-section" id="lapsandfolds-nav" style="display: none;">
+                <h3 class="nav-title">Laps and Folds</h3>
+                <ul class="nav-list">
+                    <li><a href="buckling-kinematics.html" class="nav-link">Buckling - Initial Kinematics</a></li>
+                    <li><a href="buckling-strain.html" class="nav-link">Buckling - Equivalent Strain</a></li>
+                    <li><a href="shearing-kinematics.html" class="nav-link">Shearing - Initial Kinematics</a></li>
+                    <li><a href="shearing-strain.html" class="nav-link">Shearing - Equivalent Strain</a></li>
+                </ul>
+            </div>
+            
+            <div class="nav-section" id="overfills-nav" style="display: none;">
+                <h3 class="nav-title">Overfills</h3>
+                <ul class="nav-list">
+                    <li><a href="overfills.html" class="nav-link">Overfills Defect</a></li>
+                </ul>
+            </div>
+            
+            <div class="nav-section" id="underfills-nav" style="display: none;">
+                <h3 class="nav-title">Under Fills</h3>
+                <ul class="nav-list">
+                    <li><a href="underfills-case1.html" class="nav-link">Case-1: Incorrect Billet Size</a></li>
+                    <li><a href="underfills-case2.html" class="nav-link">Case-2: Incomplete Flow</a></li>
+                </ul>
+            </div>
+            
+            <div class="nav-section" id="multiple-nav" style="display: none;">
+                <h3 class="nav-title">Multiple Defects</h3>
+                <ul class="nav-list">
+                    <li><a href="multiple-defects.html" class="nav-link">Multiple Defects</a></li>
+                </ul>
+            </div>
+        </nav>
+    </aside>
+
+    <script src="./js/main.js"></script>
 </body>
 </html>
