@@ -1,4 +1,4 @@
-# Forging Defects
+### Theory
 
 Though the forging process generally gives superior quality products compared to other
 manufacturing processes, certain defects are likely to occur if proper care is not taken
@@ -10,7 +10,7 @@ Forging defects can be broadly classified into two categories:
 
 ---
 
-## Geometrical Defects
+### Geometrical Defects
 
 Geometrical defects arise due to improper die design, poor process parameters, or incorrect
 material flow during forging.
@@ -61,7 +61,7 @@ design to ensure proper metal flow and produce a sound, defect-free forging.
 
 ---
 
-## Non-Geometrical Defects
+### Non-Geometrical Defects
 
 Non-geometrical defects mainly affect the internal structure or surface quality of the
 forged component.
