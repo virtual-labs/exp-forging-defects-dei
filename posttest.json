@@ -1,0 +1,65 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "The part produce possessing shearing defect has good surface finish:",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "Shearing defects deteriorate surface finish.",
+        "b": "Shearing defects result in poor surface finish."
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "The buckling defect can be avoided by considering proper billet design:",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "Proper billet design helps prevent buckling.",
+        "b": "Buckling is influenced by billet design."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "The defect caused due to improper die design is a non-geometrical defect:",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "Improper die design causes geometrical defects.",
+        "b": "Die design defects are geometrical defects."
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "The defect in which the flash is observed is the overfilled defect:",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "Overfill causes excess metal flow as flash.",
+        "b": "Flash is not observed in underfill."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "It is recommended to preheat the billet at suitable plastic temperature for avoiding the under filled defect produce due to improper billet size:",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "Proper preheating improves metal flow and reduces underfill.",
+        "b": "Lack of preheating worsens underfill."
+      },
+      "correctAnswer": "a"
+    }
+  ]
+}
