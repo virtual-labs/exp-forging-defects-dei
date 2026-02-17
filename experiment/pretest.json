@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Which one is the non-geometrical defect:",
+      "question": "1. Which one is the non-geometrical defect:",
       "answers": {
         "a": "Underfill",
         "b": "Laps and Folds",
@@ -18,7 +18,7 @@
       "correctAnswer": "d"
     },
     {
-      "question": "The defect caused due to the sharp edges of the die protruding against the billet:",
+      "question": "2. The defect caused due to the sharp edges of the die protruding against the billet:",
       "answers": {
         "a": "Buckling defect",
         "b": "Shearing defect",
@@ -34,7 +34,7 @@
       "correctAnswer": "c"
     },
     {
-      "question": "The underfill defect can be avoided by:",
+      "question": "3. The underfill defect can be avoided by:",
       "answers": {
         "a": "Using over-sized billet",
         "b": "Using under-sized billet",
@@ -50,7 +50,7 @@
       "correctAnswer": "c"
     },
     {
-      "question": "The material comes out of the die cavity in which of the following defect:",
+      "question": "4. The material comes out of the die cavity in which of the following defect:",
       "answers": {
         "a": "Underfills",
         "b": "Buckling",
@@ -66,7 +66,7 @@
       "correctAnswer": "d"
     },
     {
-      "question": "The defect caused due to the improper cleaning of the billet work surface:",
+      "question": "5. The defect caused due to the improper cleaning of the billet work surface:",
       "answers": {
         "a": "Scales and Pits",
         "b": "Flakes",
