@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shearing Defect - Equivalent Strain - Simulation</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+        <nav class="nav-menu">
+            <div class="nav-section">
+                <h3 class="nav-title">Laps and Folds</h3>
+                <ul class="nav-list">
+                    <li><a href="buckling-kinematics.html" class="nav-link">Buckling - Initial Kinematics</a></li>
+                    <li><a href="buckling-strain.html" class="nav-link">Buckling - Equivalent Strain</a></li>
+                    <li><a href="shearing-kinematics.html" class="nav-link">Shearing - Initial Kinematics</a></li>
+                    <li><a href="shearing-strain.html" class="nav-link active">Shearing - Equivalent Strain</a></li>
+                </ul>
+            </div>
+            
+            <button class="back-button" onclick="window.location.href='index.html'">← Back to Selection</button>
+        </nav>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <!-- Header with Logo -->
+        <div class="content-header">
+            <img src="images/deiLogo.jpg" alt="DEI Logo" class="content-logo" />
+            <div class="header-text">
+                <h1 class="header-title">Virtual Lab Simulation Environment</h1>
+                <p class="header-subtitle">Forging Defects</p>
+            </div>
+        </div>
+        
+        <h1 class="section-title">Shearing Defect - Equivalent Strain</h1>
+        <div class="content-box">
+            <div class="video-container">
+                <video controls>
+                    <source src="Forging-defects/Shearing_Strain.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <br>
+            
+            <p>This simulation depicts the results coming from the Finite Element Analysis. In this video, we could see that on the left side of the screen we have the varying contact zones representing the portions where the contact between the billet and die comes into picture in the legend on the left side of the screen. Note that the green colour showing the contact of die at upper neck of the billet 
+which is the cause of this defect. The right side of the screen shows the result coming as equilateral strain, with various colour codes according to the amount of strain coming. The change of colour from blue into green and yellow sections showing the strained portions on the billet which shows the defect coming on the surface of the billet.</p>
+        </div>
+    </main>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

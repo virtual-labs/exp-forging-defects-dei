@@ -1,0 +1,85 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Which one is the non-geometrical defect:",
+      "answers": {
+        "a": "Underfill",
+        "b": "Laps and Folds",
+        "c": "Overfills",
+        "d": "Flakes"
+      },
+      "explanations": {
+        "a": "Underfill is a geometrical defect.",
+        "b": "Laps and folds are geometrical defects.",
+        "c": "Overfills are geometrical defects.",
+        "d": "Flakes are internal defects caused by improper cooling."
+      },
+      "correctAnswer": "d"
+    },
+    {
+      "question": "2. The defect caused due to the sharp edges of the die protruding against the billet:",
+      "answers": {
+        "a": "Buckling defect",
+        "b": "Shearing defect",
+        "c": "Cold Shut",
+        "d": "Underfill"
+      },
+      "explanations": {
+        "a": "Buckling is caused by improper billet dimensions.",
+        "b": "Shearing occurs due to excessive metal flow.",
+        "c": "Cold shut occurs due to improper die design and sharp edges.",
+        "d": "Underfill occurs due to insufficient material."
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "3. The underfill defect can be avoided by:",
+      "answers": {
+        "a": "Using over-sized billet",
+        "b": "Using under-sized billet",
+        "c": "Using billet of the same volume as that of the die cavity",
+        "d": "All of These"
+      },
+      "explanations": {
+        "a": "Oversized billet may cause overfill.",
+        "b": "Undersized billet causes underfill.",
+        "c": "Correct billet volume ensures complete cavity filling.",
+        "d": "All options are not correct."
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "4. The material comes out of the die cavity in which of the following defect:",
+      "answers": {
+        "a": "Underfills",
+        "b": "Buckling",
+        "c": "Shearing",
+        "d": "Overfills"
+      },
+      "explanations": {
+        "a": "Underfill is due to insufficient material.",
+        "b": "Buckling is due to instability.",
+        "c": "Shearing causes cracks.",
+        "d": "Overfill causes material to flow out as flash."
+      },
+      "correctAnswer": "d"
+    },
+    {
+      "question": "5. The defect caused due to the improper cleaning of the billet work surface:",
+      "answers": {
+        "a": "Scales and Pits",
+        "b": "Flakes",
+        "c": "Shearing",
+        "d": "Buckling"
+      },
+      "explanations": {
+        "a": "Scale pits occur due to oxide and scale on billet surface.",
+        "b": "Flakes are caused by improper cooling.",
+        "c": "Shearing is due to excessive deformation.",
+        "d": "Buckling is due to poor billet design."
+      },
+      "correctAnswer": "a"
+    }
+  ]
+}

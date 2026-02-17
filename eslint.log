@@ -1,0 +1,7 @@
+
+/home/runner/work/exp-forging-defects-dei/exp-forging-defects-dei/experiment/simulation/js/main.js
+   4:10  warning  'selectSimulation' is defined but never used  no-unused-vars
+  26:10  warning  'backToSelection' is defined but never used   no-unused-vars
+
+✖ 2 problems (0 errors, 2 warnings)
+
